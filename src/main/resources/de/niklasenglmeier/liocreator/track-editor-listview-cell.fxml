@@ -13,14 +13,16 @@
     <rowConstraints>
       <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
       <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
     </rowConstraints>
 
     <children>
         <Label fx:id="labelId" text="ID" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM" />
         <Label fx:id="labelName" text="Track Name" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+      <CheckBox mnemonicParsing="false" selected="true" text="Use Track" textAlignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP" />
 
       <Separator maxWidth="-Infinity" orientation="VERTICAL" GridPane.columnIndex="1" GridPane.rowSpan="2147483647" />
-        <Label fx:id="labelTrackData" text="Track Data" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowSpan="2" />
+        <Label fx:id="labelTrackData" text="Track Data" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowSpan="2147483647" />
 
     </children>
    <effect>
