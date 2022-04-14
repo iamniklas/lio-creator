@@ -1,0 +1,67 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.jetbrains.kotlin.jvm' version '1.5.10'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+}
+
+group 'de.niklasenglmeier'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+ext {
+    junitVersion = '5.8.2'
+}
+
+sourceCompatibility = '11'
+targetCompatibility = '11'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+application {
+    mainModule = 'de.niklasenglmeier.liocreator'
+    mainClass = 'de.niklasenglmeier.liocreator.HelloApplication'
+}
+
+[compileKotlin, compileTestKotlin].forEach {
+    it.kotlinOptions {
+        jvmTarget = '11'
+    }
+}
+
+javafx {
+    version = '11.0.2'
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.web']
+}
+
+dependencies {
+    implementation('org.controlsfx:controlsfx:11.1.0')
+    implementation('com.dlsc.formsfx:formsfx-core:11.3.2') {
+        exclude(group: 'org.openjfx')
+    }
+    implementation('net.synedra:validatorfx:0.1.13') {
+        exclude(group: 'org.openjfx')
+    }
+    implementation('org.kordamp.ikonli:ikonli-javafx:12.2.0')
+    implementation('org.kordamp.bootstrapfx:bootstrapfx-core:0.4.0')
+    implementation('eu.hansolo:tilesfx:11.48') {
+        exclude(group: 'org.openjfx')
+    }
+    implementation 'com.github.iamniklas:lio-core:0.0.8-1.8'
+    implementation 'junit:junit:4.13.2'
+    implementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+}
+
+test {
+    useJUnitPlatform()
+}
