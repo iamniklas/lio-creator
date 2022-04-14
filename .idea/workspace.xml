@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edfefb21-7e05-45f6-918c-6952d0467ac9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/de/niklasenglmeier/liocreator/MIDIFileLoader.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/de/niklasenglmeier/liocreator/TrackListViewCell.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/de/niklasenglmeier/liocreator/models/MIDIFile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/de/niklasenglmeier/liocreator/models/MIDIHeader.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/de/niklasenglmeier/liocreator/models/Track.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/niklasenglmeier/liocreator/miditestfile.mid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/niklasenglmeier/liocreator/track-editor-listview-cell.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Tests.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/miditestfile.mid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/de/niklasenglmeier/liocreator/track-editor-listview-cell.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/de/niklasenglmeier/liocreator/track-editor-listview-cell.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

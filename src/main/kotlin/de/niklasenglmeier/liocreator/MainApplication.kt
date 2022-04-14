@@ -16,14 +16,14 @@ class MainApplication : Application() {
 
         val scene = Scene(fxmlLoader.load(), 1280.0, 720.0)
         controller = fxmlLoader.getController()
-        stage.title = "LIO MIDI to Animation Converter Tool"
+        stage.title = "LIO Creator"
         stage.scene = scene
         stage.isResizable = false
 
         controller.stage = stage
         val list: ListView<String> = ListView<String>()
         val items = FXCollections.observableArrayList(
-            Track(0, "Chors"),
+            Track(0, "Vocals"),
             Track(1, "Guitar"),
             Track(2, "Synth"),
             Track(3, "Piano"),
