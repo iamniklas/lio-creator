@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edfefb21-7e05-45f6-918c-6952d0467ac9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/de/niklasenglmeier/liocreator/track-editor-listview-cell.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/de/niklasenglmeier/liocreator/track-editor-listview-cell.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/de/niklasenglmeier/liocreator/ExportApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/niklasenglmeier/liocreator/export-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/niklasenglmeier/liocreator/MainApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/niklasenglmeier/liocreator/MainApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/niklasenglmeier/liocreator/MainController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/niklasenglmeier/liocreator/MainController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/de/niklasenglmeier/liocreator/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/de/niklasenglmeier/liocreator/main-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/Tests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/Tests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +29,8 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -52,6 +61,10 @@
       <recent name="D:\Projekte\IDEA\lio-creator\src\main\kotlin\de\niklasenglmeier\liocreator\models" />
       <recent name="D:\Projekte\IDEA\lio-creator\src\main\resources\de\niklasenglmeier\liocreator" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projekte\IDEA\lio-creator\src\main\kotlin\de\niklasenglmeier\liocreator" />
+      <recent name="D:\Projekte\IDEA\lio-creator\src\main\kotlin\de\niklasenglmeier\liocreator\mvcareas\main" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="de.niklasenglmeier.liocreator.models" />
     </key>
@@ -66,6 +79,27 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;Tests.loadMidiFile&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests.yetAnotherMidiTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Tests.yetAnotherMidiTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -104,6 +138,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainApplicationKt" />
+        <item itemvalue="Gradle.Tests.yetAnotherMidiTest" />
         <item itemvalue="Gradle.Tests.loadMidiFile" />
       </list>
     </recent_temporary>
@@ -129,6 +164,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

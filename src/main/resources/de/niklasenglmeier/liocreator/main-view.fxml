@@ -8,7 +8,7 @@
         <Button fx:id="toolbarOpenMIDI" mnemonicParsing="false" onAction="#onToolbarOpenMIDIClicked" text="Open MIDI File..." />
         <Button mnemonicParsing="false" onAction="#onToolbarOpenProjectClicked" text="Open Project..." />
         <Button mnemonicParsing="false" text="Save Project" />
-        <Button mnemonicParsing="false" text="Export Animation" />
+        <Button mnemonicParsing="false" text="Export Animation" onAction="#onToolbarExportButtonClicked" />
     </ToolBar>
     <ListView fx:id="listViewTest" prefHeight="441.0" prefWidth="640.0" VBox.vgrow="ALWAYS" />
 </VBox>
